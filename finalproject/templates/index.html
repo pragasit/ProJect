@@ -18,8 +18,9 @@
     <hr>
         {% for x in all %}
         <h3 class="text-center mt-2 mb-2">{{x.caption}}</h3>
-        <video class="embed-responsive embed-responsive-16by9" control=""comtrols>
-            <source src="{{x.video.trl}}" type="video/mp4"/>
+        <video class="embed-responsive embed-responsive-16by9" controls="controls">
+            <source src="{{x.video.url}}" type="video/mp4"/>
+            <p>{{x.video.url}}</p>
         </video>
         {% endfor %}
 </body>

@@ -1,7 +1,7 @@
 from django import forms
-from .models import Video
+from .models import video
 
 class Video_form(forms.ModelForm):
     class Meta:
-        model=Video
-        fields=("cation","video")
+        model=video
+        fields=("caption","video")
