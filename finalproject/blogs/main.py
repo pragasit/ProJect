@@ -344,7 +344,7 @@ def AnalysVideo(change, content): # ชื่อวิดีโอ, pathวิ�
                                 cv2.FONT_HERSHEY_SIMPLEX, 0.8, (255, 255, 255), 2, cv2.LINE_AA
                                 )
 
-                if change == 'latpulldown2_wrong':
+            if change == 'latpulldown2':
                     # Calculate angle
                     angler = calculate_angler(shoulderr, elbowr, wristr)
                     # Visualize angle
